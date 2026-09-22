@@ -1,0 +1,287 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "assalam o alaikum",
+        "hey there",
+        "is anyone there",
+        "hello bot",
+        "yo"
+      ],
+      "responses": [
+        "Hey! How can I help you today?",
+        "Hello there!",
+        "Hi! What's up?",
+        "Hey, good to see you here."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "i have to go",
+        "talk to you later",
+        "catch you later",
+        "gotta go",
+        "see ya",
+        "farewell",
+        "i'm leaving now"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later!",
+        "Bye, talk soon!",
+        "Catch you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that helped",
+        "thanks a lot",
+        "appreciate it",
+        "thank you so much",
+        "thanks for the help",
+        "great, thanks",
+        "cool thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Happy to help.",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what should i call you",
+        "do you have a name",
+        "what's your name",
+        "tell me your name"
+      ],
+      "responses": [
+        "I'm StudyBot, a simple chatbot.",
+        "You can call me StudyBot.",
+        "I go by StudyBot."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who made you",
+        "who created you",
+        "who built this bot",
+        "who is your developer",
+        "who programmed you",
+        "who designed you"
+      ],
+      "responses": [
+        "I was built as a student project using Python and scikit-learn.",
+        "A student made me for a machine learning class project.",
+        "I'm a college project built with Python."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "what is your age",
+        "when were you born",
+        "your age please"
+      ],
+      "responses": [
+        "I don't really have an age, I'm just a program.",
+        "Age doesn't apply to me, I'm code!"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "how can you help me",
+        "what are your features",
+        "what do you know",
+        "help me understand what you do",
+        "your capabilities"
+      ],
+      "responses": [
+        "I can chat with you, answer simple questions, tell jokes and give study tips.",
+        "I can have a basic conversation, share jokes, and offer motivation."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "i need help",
+        "can you help me",
+        "help me please",
+        "i'm stuck",
+        "i need assistance"
+      ],
+      "responses": [
+        "Sure, tell me what you need help with.",
+        "I'm here, what do you need help with?"
+      ]
+    },
+    {
+      "tag": "mood_positive",
+      "patterns": [
+        "i am feeling good",
+        "i am happy today",
+        "i feel great",
+        "life is good",
+        "i am doing well",
+        "feeling awesome",
+        "i'm in a great mood"
+      ],
+      "responses": [
+        "That's great to hear!",
+        "Awesome, glad you're doing well!",
+        "Nice! Keep that energy up."
+      ]
+    },
+    {
+      "tag": "mood_negative",
+      "patterns": [
+        "i am feeling sad",
+        "i am tired",
+        "i had a bad day",
+        "i feel stressed",
+        "i am not okay",
+        "feeling down today",
+        "i'm exhausted"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Take a short break if you can.",
+        "That sounds tough. Try to rest a little.",
+        "Hang in there, things usually get better."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "say something funny",
+        "do you know any jokes",
+        "tell a joke please",
+        "i want to laugh"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "Why did the computer go to the doctor? It caught a virus.",
+        "I would tell a UDP joke, but you might not get it."
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "you are smart",
+        "good job",
+        "you are helpful",
+        "you are amazing",
+        "well done",
+        "you are cool"
+      ],
+      "responses": [
+        "Thank you, that's kind of you!",
+        "Aww, thanks!",
+        "I appreciate that!"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are stupid",
+        "you are useless",
+        "i hate you",
+        "you are bad",
+        "you are dumb",
+        "this bot is terrible"
+      ],
+      "responses": [
+        "I'm sorry you feel that way, I'll try to do better.",
+        "That's okay, let's start over.",
+        "I'll try to help you better this time."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what is the weather today",
+        "is it raining",
+        "how is the weather",
+        "will it rain today",
+        "tell me the weather"
+      ],
+      "responses": [
+        "I can't check live weather, but you can check a weather app for that.",
+        "I don't have live weather access right now, sorry!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time is it",
+        "tell me the time",
+        "current time please",
+        "what's the time now"
+      ],
+      "responses": [
+        "I don't have access to the real clock, please check your device.",
+        "Sorry, I can't check the current time from here."
+      ]
+    },
+    {
+      "tag": "study_tip",
+      "patterns": [
+        "give me a study tip",
+        "how do i study better",
+        "tips for exams",
+        "how to focus while studying",
+        "help me study",
+        "study advice please"
+      ],
+      "responses": [
+        "Try studying in short 25-minute sessions with 5-minute breaks.",
+        "Summarize each topic in your own words after reading it.",
+        "Remove your phone from the room while studying to stay focused."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "i need motivation",
+        "encourage me",
+        "give me some motivation",
+        "i feel like giving up",
+        "inspire me"
+      ],
+      "responses": [
+        "You've come this far, don't stop now!",
+        "Small consistent steps beat one big burst of effort.",
+        "Every expert was once a beginner, keep going."
+      ]
+    }
+  ],
+  "fallback_responses": [
+    "Sorry, I didn't quite understand that. Could you rephrase it?",
+    "I'm not sure I follow, can you say that differently?",
+    "Hmm, I don't have an answer for that yet."
+  ]
+}
